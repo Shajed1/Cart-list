@@ -1,0 +1,84 @@
+body{
+    background-color: hsl(20, 50%, 98%);
+    margin: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+     font-family: "Red Hat Text", sans-serif;
+}
+#nav-bar{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#full-div{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-template-rows: auto
+}
+#first-main-div{
+    
+}
+.making-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 400px 400px 400px;
+    gap: 10px;
+}
+.cards-child1{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.image-waffle-1{
+    width: 200px;
+    border-radius: 10px;
+}
+.add-to-cart-icon{
+ width: 20px;
+}
+#add-to-cart-btn{
+    height: 40px;
+    width:140px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid hsl(12, 20%, 44%);
+    background-color: white;
+    border-radius: 20px;
+    position:absolute;
+    top: 260px;
+    left: 78px;
+    z-index: 1;
+}
+.cards-child2{
+    background-color:aquamarine;
+}
+.cards-child3{
+    background-color:black;
+}
+.cards-child4{
+    background-color:blanchedalmond;
+}
+.cards-child5{
+    background-color:blue;
+}
+.cards-child6{
+    background-color:brown;
+}
+.cards-child7{
+    background-color:blueviolet;
+}
+.cards-child8{
+    background-color:cadetblue;
+}
+.cards-child9{
+    background-color:coral;
+}
+
+
+#second-main-div{
+   
+}
