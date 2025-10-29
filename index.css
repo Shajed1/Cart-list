@@ -27,34 +27,73 @@ body{
     gap: 10px;
 }
 .cards-child1{
-    display: flex;
-    flex-direction: column;
-    align-items: start;
+
+  align-items: start;
 }
 .image-waffle-1{
     width: 200px;
     border-radius: 10px;
 }
 .add-to-cart-icon{
- width: 20px;
+ width: 17px;
 }
-#add-to-cart-btn{
-    height: 40px;
+.add-to-cart-btn{
+    height: 35px;
     width:140px ;
+    border: 1px solid hsl(12, 20%, 44%);
+    background-color: white;
+    border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+}
+
+.before-hover{
+     justify-content: center;
+    align-items: center;
     gap: 10px;
-    border: 2px solid hsl(12, 20%, 44%);
-    background-color: white;
-    border-radius: 20px;
-    position:absolute;
-    top: 260px;
-    left: 78px;
-    z-index: 1;
+    display:flex;
+    font-size: 10px;
+}
+.add-to-cart-btn:hover{
+    background-color: hsl(14, 86%, 42%);
+}
+
+.after-hover{
+    display:none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.plusbutton{
+
+   color: white;
+   background-color: hsl(14, 86%, 42%);
+   border: 1px solid white;
+   border-radius: 50%;
+   cursor: pointer;
+}
+.minusbutton{
+       color: white;
+   background-color: hsl(14, 86%, 42%);
+   border: 1px solid white;
+   border-radius: 50%;
+   width: 20px;
+   cursor: pointer;
+}
+.countdownid{
+ color: white;
+}
+.price-tags{
+    color: hsl(14, 86%, 42%);
+}
+.fade-tittle{
+    color: hsl(14, 25%, 72%);
 }
 .cards-child2{
-    background-color:aquamarine;
+    
 }
 .cards-child3{
     background-color:black;
