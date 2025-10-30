@@ -17,6 +17,7 @@ body{
     grid-template-columns: 3fr 2fr;
     grid-template-rows: auto
 }
+/* First Cards */
 #first-main-div{
     
 }
@@ -92,32 +93,332 @@ body{
 .fade-tittle{
     color: hsl(14, 25%, 72%);
 }
+
+/* Cards1- End Here */
+
 .cards-child2{
+      align-items: start;
+}
+.add-to-cart-icon2{
+ width: 17px;
+}
+.add-to-cart-btn2{
+    height: 35px;
+    width:140px ;
+    border: 1px solid hsl(12, 20%, 44%);
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.add-to-cart-btn2:hover{
+    background-color: hsl(14, 86%, 42%);
+}
+.before-hover2{
+     justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display:flex;
+    font-size: 10px;
+}
+.after-hover2{
+    display:none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.plusbutton2{
+
+   color: white;
+   background-color: hsl(14, 86%, 42%);
+   border: 1px solid white;
+   border-radius: 50%;
+   cursor: pointer;
+}
+.minusbutton2{
+       color: white;
+   background-color: hsl(14, 86%, 42%);
+   border: 1px solid white;
+   border-radius: 50%;
+   width: 20px;
+   cursor: pointer;
+}
+.countdownid2{
+ color: white;
+}
+.price-tags2{
+    color: hsl(14, 86%, 42%);
+}
+.fade-tittle2{
+    color: hsl(14, 25%, 72%);
+}
+/* Cards 2 End Here */
+/* Cards 3 start here */
+.cards-child3{
+   
+}
+.countdownid3{
+ color: white;
+}
+.add-to-cart-btn3{
+    height: 35px;
+    width:140px ;
+    border: 1px solid hsl(12, 20%, 44%);
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.add-to-cart-btn3:hover{
+    background-color: hsl(14, 86%, 42%);
+}
+.before-hover3{
+     justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display:flex;
+    font-size: 10px;
+}
+.after-hover3{
+    display:none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+/* cards 3 end here */
+
+.cards-child4{
     
 }
-.cards-child3{
-    background-color:black;
+.add-to-cart-btn4{
+    height: 35px;
+    width:140px ;
+    border: 1px solid hsl(12, 20%, 44%);
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }
-.cards-child4{
-    background-color:blanchedalmond;
+.add-to-cart-btn4:hover{
+    background-color: hsl(14, 86%, 42%);
 }
+.before-hover4{
+     justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display:flex;
+    font-size: 10px;
+}
+.after-hover4{
+    display:none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.countdownid4{
+ color: white;
+}
+/* cards 4 end */
 .cards-child5{
-    background-color:blue;
+    
 }
+.add-to-cart-btn5{
+    height: 35px;
+    width:140px ;
+    border: 1px solid hsl(12, 20%, 44%);
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.add-to-cart-btn5:hover{
+    background-color: hsl(14, 86%, 42%);
+}
+.before-hover5{
+     justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display:flex;
+    font-size: 10px;
+}
+.after-hover5{
+    display:none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.countdownid5{
+ color: white;
+}
+/*cards 5 end here */
 .cards-child6{
-    background-color:brown;
+    
 }
+.add-to-cart-btn6{
+    height: 35px;
+    width:140px ;
+    border: 1px solid hsl(12, 20%, 44%);
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.add-to-cart-btn6:hover{
+    background-color: hsl(14, 86%, 42%);
+}
+.before-hover6{
+     justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display:flex;
+    font-size: 10px;
+}
+.after-hover6{
+    display:none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.countdownid6{
+ color: white;
+}
+
+/*Cards 6 here */
+.add-to-cart-btn7{
+    height: 35px;
+    width:140px ;
+    border: 1px solid hsl(12, 20%, 44%);
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.add-to-cart-btn7:hover{
+    background-color: hsl(14, 86%, 42%);
+}
+.before-hover7{
+     justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display:flex;
+    font-size: 10px;
+}
+.after-hover7{
+    display:none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.countdownid7{
+ color: white;
+}
+
 .cards-child7{
-    background-color:blueviolet;
+  
 }
+/*cards 7 End */
+.add-to-cart-btn8{
+    height: 35px;
+    width:140px ;
+    border: 1px solid hsl(12, 20%, 44%);
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.add-to-cart-btn8:hover{
+    background-color: hsl(14, 86%, 42%);
+}
+.before-hover8{
+     justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display:flex;
+    font-size: 10px;
+}
+.after-hover8{
+    display:none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.countdownid8{
+ color: white;
+}
+
 .cards-child8{
-    background-color:cadetblue;
+    
 }
+/* Cards 8 end here */
+.add-to-cart-btn9{
+    height: 35px;
+    width:140px ;
+    border: 1px solid hsl(12, 20%, 44%);
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.add-to-cart-btn9:hover{
+    background-color: hsl(14, 86%, 42%);
+}
+.before-hover9{
+     justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display:flex;
+    font-size: 10px;
+}
+.after-hover9{
+    display:none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.countdownid9{
+ color: white;
+}
+
+
 .cards-child9{
-    background-color:coral;
+   
 }
 
-
+/* start the second part of our project */
 #second-main-div{
    
+}
+.change-color-yourcart{
+    color: hsl(14, 86%, 42%);
+}
+
+#after-cart{
+    display: none;
+}
+#before-cart{
+    display: inline;
 }
