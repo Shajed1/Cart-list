@@ -422,3 +422,84 @@ body{
 #before-cart{
     display: inline;
 }
+#yourcartandemptyimg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    background-color: white;
+    border-radius: 10px;
+    margin-top:80px;
+}
+#empty-cart{
+    width: 250px;
+    display: block;
+}
+#yourcartandemptyimg-child{
+    position: relative;
+     display:inline;
+}
+#yourcartandemptyimg-child p{
+
+}
+#card1-fullitemadded{
+    display: none;
+    justify-content: space-between;
+    background-color: hsl(9, 16%, 92%);
+    align-items: center;
+}
+#card1-fullitemadded-child1{
+display: grid;
+grid-template-rows: 30px;
+ padding-left: 30px;
+}
+#productprice-child{
+    display: flex;
+    flex-direction: row;
+}
+#countthe-theproductprice{
+    color: hsl(14, 86%, 42%);
+    font-size: 20px;
+    font-weight: 700;
+}
+#cross-button{
+    margin-right: 30px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid hsl(14, 86%, 42%);
+    background-color: hsl(9, 16%, 92%);
+    color: white;
+    cursor: pointer;
+}
+/* Caed two */
+#card2-fullitemadded{
+    display: none;
+    justify-content: space-between;
+    background-color: hsl(9, 16%, 92%);
+    align-items: center;
+}
+#card2-fullitemadded-child2{
+display: grid;
+grid-template-rows: 30px;
+ padding-left: 30px;
+}
+#productprice-child2{
+    display: flex;
+    flex-direction: row;
+}
+#countthe-theproductprice2{
+    color: hsl(14, 86%, 42%);
+    font-size: 20px;
+    font-weight: 700;
+}
+#cross-button2{
+    margin-right: 30px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid hsl(14, 86%, 42%);
+    background-color: hsl(9, 16%, 92%);
+    color: white;
+    cursor: pointer;
+}
