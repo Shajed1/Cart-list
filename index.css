@@ -149,7 +149,7 @@ body{
 .countdownid2{
  color: white;
 }
-.price-tags2{
+#price-tags1{
     color: hsl(14, 86%, 42%);
 }
 .fade-tittle2{
@@ -409,8 +409,11 @@ body{
 }
 
 /* start the second part of our project */
-#second-main-div{
-   
+#second-main-div-child{
+
+}
+.full-div-second{
+
 }
 .change-color-yourcart{
     color: hsl(14, 86%, 42%);
@@ -447,6 +450,8 @@ body{
     justify-content: space-between;
     background-color: hsl(9, 16%, 92%);
     align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 #card1-fullitemadded-child1{
 display: grid;
@@ -472,12 +477,14 @@ grid-template-rows: 30px;
     color: white;
     cursor: pointer;
 }
-/* Caed two */
+/* Card two */
 #card2-fullitemadded{
     display: none;
     justify-content: space-between;
     background-color: hsl(9, 16%, 92%);
     align-items: center;
+        margin-top: 5px;
+    margin-bottom: 5px;
 }
 #card2-fullitemadded-child2{
 display: grid;
@@ -502,4 +509,267 @@ grid-template-rows: 30px;
     background-color: hsl(9, 16%, 92%);
     color: white;
     cursor: pointer;
+}
+/* Card three */
+#card3-fullitemadded{
+    display: none;
+    justify-content: space-between;
+    background-color: hsl(9, 16%, 92%);
+    align-items: center;
+        margin-top: 5px;
+    margin-bottom: 5px;
+}
+#card3-fullitemadded-child3{
+display: grid;
+grid-template-rows: 30px;
+ padding-left: 30px;
+}
+#productprice-child3{
+    display: flex;
+    flex-direction: row;
+}
+#countthe-theproductprice3{
+    color: hsl(14, 86%, 42%);
+    font-size: 20px;
+    font-weight: 700;
+}
+#cross-button3{
+    margin-right: 30px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid hsl(14, 86%, 42%);
+    background-color: hsl(9, 16%, 92%);
+    color: white;
+    cursor: pointer;
+}
+/* Card Four */
+#card4-fullitemadded{
+    display: none;
+    justify-content: space-between;
+    background-color: hsl(9, 16%, 92%);
+    align-items: center;
+        margin-top: 5px;
+    margin-bottom: 5px;
+}
+#card4-fullitemadded-child4{
+display: grid;
+grid-template-rows: 30px;
+ padding-left: 30px;
+}
+#productprice-child4{
+    display: flex;
+    flex-direction: row;
+}
+#countthe-theproductprice4{
+    color: hsl(14, 86%, 42%);
+    font-size: 20px;
+    font-weight: 700;
+}
+#cross-button4{
+    margin-right: 30px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid hsl(14, 86%, 42%);
+    background-color: hsl(9, 16%, 92%);
+    color: white;
+    cursor: pointer;
+}
+/* Card Five */
+#card5-fullitemadded{
+    display: none;
+    justify-content: space-between;
+    background-color: hsl(9, 16%, 92%);
+    align-items: center;
+        margin-top: 5px;
+    margin-bottom: 5px;
+}
+#card5-fullitemadded-child5{
+display: grid;
+grid-template-rows: 30px;
+ padding-left: 30px;
+}
+#productprice-child5{
+    display: flex;
+    flex-direction: row;
+}
+#countthe-theproductprice5{
+    color: hsl(14, 86%, 42%);
+    font-size: 20px;
+    font-weight: 700;
+}
+#cross-button5{
+    margin-right: 30px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid hsl(14, 86%, 42%);
+    background-color: hsl(9, 16%, 92%);
+    color: white;
+    cursor: pointer;
+}
+/* Card six */
+#card6-fullitemadded{
+    display: none;
+    justify-content: space-between;
+    background-color: hsl(9, 16%, 92%);
+    align-items: center;
+        margin-top: 5px;
+    margin-bottom: 5px;
+}
+#card6-fullitemadded-child6{
+display: grid;
+grid-template-rows: 30px;
+ padding-left: 30px;
+}
+#productprice-child6{
+    display: flex;
+    flex-direction: row;
+}
+#countthe-theproductprice6{
+    color: hsl(14, 86%, 42%);
+    font-size: 20px;
+    font-weight: 700;
+}
+#cross-button6{
+    margin-right: 30px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid hsl(14, 86%, 42%);
+    background-color: hsl(9, 16%, 92%);
+    color: white;
+    cursor: pointer;
+}
+/* Card seven */
+#card7-fullitemadded{
+    display: none;
+    justify-content: space-between;
+    background-color: hsl(9, 16%, 92%);
+    align-items: center;
+        margin-top: 5px;
+    margin-bottom: 5px;
+}
+#card7-fullitemadded-child7{
+display: grid;
+grid-template-rows: 30px;
+ padding-left: 30px;
+}
+#productprice-child7{
+    display: flex;
+    flex-direction: row;
+}
+#countthe-theproductprice7{
+    color: hsl(14, 86%, 42%);
+    font-size: 20px;
+    font-weight: 700;
+}
+#cross-button7{
+    margin-right: 30px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid hsl(14, 86%, 42%);
+    background-color: hsl(9, 16%, 92%);
+    color: white;
+    cursor: pointer;
+}
+/* Card Eight */
+#card8-fullitemadded{
+    display: none;
+    justify-content: space-between;
+    background-color: hsl(9, 16%, 92%);
+    align-items: center;
+        margin-top:50px;
+    margin-bottom: 5px;
+}
+#card8-fullitemadded-child8{
+display: grid;
+grid-template-rows: 30px;
+ padding-left: 30px;
+}
+#productprice-child8{
+    display: flex;
+    flex-direction: row;
+}
+#countthe-theproductprice8{
+    color: hsl(14, 86%, 42%);
+    font-size: 20px;
+    font-weight: 700;
+}
+#cross-button8{
+    margin-right: 30px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid hsl(14, 86%, 42%);
+    background-color: hsl(9, 16%, 92%);
+    color: white;
+    cursor: pointer;
+}
+/* Card NINE */
+#card9-fullitemadded{
+    
+    display: none;
+    justify-content: space-between;
+    background-color: hsl(9, 16%, 92%);
+    align-items: center;
+        margin-top: 5px;
+    margin-bottom: 5px;
+}
+#card9-fullitemadded-child9{
+display: grid;
+grid-template-rows: 30px;
+ padding-left: 30px;
+}
+#productprice-child9{
+    display: flex;
+    flex-direction: row;
+}
+#countthe-theproductprice9{
+    color: hsl(14, 86%, 42%);
+    font-size: 20px;
+    font-weight: 700;
+}
+#cross-button9{
+    margin-right: 30px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid hsl(14, 86%, 42%);
+    background-color: hsl(9, 16%, 92%);
+    color: white;
+    cursor: pointer;
+}
+/* cart item select End here */
+
+/* Confirmation item start here */
+#Total-price-fulldiv{
+    display: none;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: hsl(9, 16%, 92%);
+    height: 60px;
+    width: 1fr;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 20px;
+}
+#Total-price-fulldiv-child2{
+        font-size: 24px;
+    font-weight: 600;
+    color: hsl(14, 86%, 42%);
+}
+.dollercolor{
+    color: hsl(14, 86%, 42%);
+}
+#price-tags3,#price-tags4
+,#price-tags5
+,#price-tags6
+,#price-tags7
+,#price-tags8
+,#price-tags9{
+    color: hsl(14, 86%, 42%);
 }
