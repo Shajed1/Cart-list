@@ -1,0 +1,12 @@
+@media (max-width: 480px) { 
+    #full-div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#making-cards{
+    display: grid;
+    grid-template-rows: 300px;
+    grid-template-columns: 2fr;
+}
+}
