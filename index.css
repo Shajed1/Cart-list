@@ -747,11 +747,10 @@ grid-template-rows: 30px;
 /* Confirmation item start here */
 #Total-price-fulldiv{
     display: none;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    background-color: hsl(9, 16%, 92%);
-    height: 60px;
+
     width: 1fr;
     font-size: 16px;
     font-weight: 600;
@@ -772,4 +771,75 @@ grid-template-rows: 30px;
 ,#price-tags8
 ,#price-tags9{
     color: hsl(14, 86%, 42%);
+}
+/*carbon delevery */
+#carbon-delevery{
+
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+#confirm-button{
+    height: 55px;
+    width: 400px;
+    background-color: hsl(14, 86%, 42%);
+    color: white;
+    margin-left: 50px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+}
+#confirm-button:hover{
+       box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+#carbondelevery-confirmbutton{
+    display: block;
+}
+
+/* Pop up */
+
+#order-popup-fulldiv {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+
+  background: rgba(0, 0, 0, 0.4); 
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 999; 
+}
+
+
+#order-popup-fulldiv-child {
+  background-color: white;
+  width: 400px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+#start-neworder{
+    height: 40px;
+    width: 200px;
+        color: white;
+    margin-left: 100px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+        background-color: hsl(14, 86%, 42%);
+}
+#start-neworder:hover{
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }

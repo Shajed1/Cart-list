@@ -840,25 +840,40 @@ function totalselectitem29(){
 // Cross The Selected item and also minus The Whole Selected For Card 1 Start
 function crossbtn() {
   document.getElementById("card1-fullitemadded").style.display = "none"
-  let afterthecartifzero = document.getElementById("yourcartandemptyimg-child")
-     afterthecartifzero.style.display = "block"
+
   let beforeartdirectzero = document.getElementById("before-cart")
   let beforeartdirectzero1 = parseInt(beforeartdirectzero.innerText)
+
+   
+  
   let productpricdirectxero = document.getElementById("countthe-theproductprice")
   let productpricdirectxero1 = parseInt(productpricdirectxero.innerText)
+
   if (beforeartdirectzero1 > 0) {
     beforeartdirectzero1 = beforeartdirectzero1 - productpricdirectxero1
-  }
 
+  }
+if (beforeartdirectzero1 <= 0) {
+  document.getElementById("yourcartandemptyimg-child").style.display = "inline";
+  document.getElementById("Total-price-fulldiv").style.display = "none";
+
+}
+ let theitemselect= document.querySelector(".countdownid")
+ let theitemselect1=parseFloat(theitemselect.innerText)
+ let totalitemselectinsecondpart=document.getElementById("countthe-theproductprice")
+ let totalitemselectinsecondpart1=parseFloat(totalitemselectinsecondpart.innerText)
+ theitemselect1=theitemselect1-totalitemselectinsecondpart1
+ theitemselect.innerText=theitemselect1
   beforeartdirectzero.innerText = beforeartdirectzero1
 aftercrossfunction()
+
+
 }
 
 //For Card 2
 function crossbtn2() {
   document.getElementById("card2-fullitemadded").style.display = "none"
-  let afterthecartifzero = document.getElementById("yourcartandemptyimg-child")
-     afterthecartifzero.style.display = "inline"
+
  
   let beforeartdirectzero = document.getElementById("before-cart")
   let beforeartdirectzero1 = parseInt(beforeartdirectzero.innerText)
@@ -867,14 +882,25 @@ function crossbtn2() {
   if (beforeartdirectzero1 > 0) {
     beforeartdirectzero1 = beforeartdirectzero1 - productpricdirectxero1
   }
+if (beforeartdirectzero1 <= 0) {
+  document.getElementById("yourcartandemptyimg-child").style.display = "inline";
+  document.getElementById("Total-price-fulldiv").style.display = "none";
+
+}
+ let theitemselect= document.querySelector(".countdownid2")
+ let theitemselect1=parseFloat(theitemselect.innerText)
+ let totalitemselectinsecondpart=document.getElementById("countthe-theproductprice2")
+ let totalitemselectinsecondpart1=parseFloat(totalitemselectinsecondpart.innerText)
+ theitemselect1=theitemselect1-totalitemselectinsecondpart1
+ theitemselect.innerText=theitemselect1
 
   beforeartdirectzero.innerText = beforeartdirectzero1
+  aftercrossfunction2()
 }
 //For Card 3
 function crossbtn3() {
   document.getElementById("card3-fullitemadded").style.display = "none"
-  let afterthecartifzero = document.getElementById("yourcartandemptyimg-child")
-     afterthecartifzero.style.display = "inline"
+
  
   let beforeartdirectzero = document.getElementById("before-cart")
   let beforeartdirectzero1 = parseInt(beforeartdirectzero.innerText)
@@ -883,14 +909,25 @@ function crossbtn3() {
   if (beforeartdirectzero1 > 0) {
     beforeartdirectzero1 = beforeartdirectzero1 - productpricdirectxero1
   }
+if (beforeartdirectzero1 <= 0) {
+  document.getElementById("yourcartandemptyimg-child").style.display = "inline";
+  document.getElementById("Total-price-fulldiv").style.display = "none";
+
+}
+ let theitemselect= document.querySelector(".countdownid3")
+ let theitemselect1=parseFloat(theitemselect.innerText)
+ let totalitemselectinsecondpart=document.getElementById("countthe-theproductprice3")
+ let totalitemselectinsecondpart1=parseFloat(totalitemselectinsecondpart.innerText)
+ theitemselect1=theitemselect1-totalitemselectinsecondpart1
+ theitemselect.innerText=theitemselect1
 
   beforeartdirectzero.innerText = beforeartdirectzero1
+  aftercrossfunction3()
 }
 //For Card 4
 function crossbtn4() {
   document.getElementById("card4-fullitemadded").style.display = "none"
-  let afterthecartifzero = document.getElementById("yourcartandemptyimg-child")
-     afterthecartifzero.style.display = "inline"
+
  
   let beforeartdirectzero = document.getElementById("before-cart")
   let beforeartdirectzero1 = parseInt(beforeartdirectzero.innerText)
@@ -899,14 +936,25 @@ function crossbtn4() {
   if (beforeartdirectzero1 > 0) {
     beforeartdirectzero1 = beforeartdirectzero1 - productpricdirectxero1
   }
+if (beforeartdirectzero1 <= 0) {
+  document.getElementById("yourcartandemptyimg-child").style.display = "inline";
+  document.getElementById("Total-price-fulldiv").style.display = "none";
+
+}
+ let theitemselect= document.querySelector(".countdownid4")
+ let theitemselect1=parseFloat(theitemselect.innerText)
+ let totalitemselectinsecondpart=document.getElementById("countthe-theproductprice4")
+ let totalitemselectinsecondpart1=parseFloat(totalitemselectinsecondpart.innerText)
+ theitemselect1=theitemselect1-totalitemselectinsecondpart1
+ theitemselect.innerText=theitemselect1
 
   beforeartdirectzero.innerText = beforeartdirectzero1
+  aftercrossfunction4()
 }
 //For Card 5
 function crossbtn5() {
   document.getElementById("card5-fullitemadded").style.display = "none"
-  let afterthecartifzero = document.getElementById("yourcartandemptyimg-child")
-     afterthecartifzero.style.display = "inline"
+
  
   let beforeartdirectzero = document.getElementById("before-cart")
   let beforeartdirectzero1 = parseInt(beforeartdirectzero.innerText)
@@ -915,14 +963,25 @@ function crossbtn5() {
   if (beforeartdirectzero1 > 0) {
     beforeartdirectzero1 = beforeartdirectzero1 - productpricdirectxero1
   }
+if (beforeartdirectzero1 <= 0) {
+  document.getElementById("yourcartandemptyimg-child").style.display = "inline";
+  document.getElementById("Total-price-fulldiv").style.display = "none";
+
+}
+ let theitemselect= document.querySelector(".countdownid5")
+ let theitemselect1=parseFloat(theitemselect.innerText)
+ let totalitemselectinsecondpart=document.getElementById("countthe-theproductprice5")
+ let totalitemselectinsecondpart1=parseFloat(totalitemselectinsecondpart.innerText)
+ theitemselect1=theitemselect1-totalitemselectinsecondpart1
+ theitemselect.innerText=theitemselect1
 
   beforeartdirectzero.innerText = beforeartdirectzero1
+  aftercrossfunction5()
 }
 //For Card 6
 function crossbtn6() {
   document.getElementById("card6-fullitemadded").style.display = "none"
-  let afterthecartifzero = document.getElementById("yourcartandemptyimg-child")
-     afterthecartifzero.style.display = "inline"
+
  
   let beforeartdirectzero = document.getElementById("before-cart")
   let beforeartdirectzero1 = parseInt(beforeartdirectzero.innerText)
@@ -931,14 +990,25 @@ function crossbtn6() {
   if (beforeartdirectzero1 > 0) {
     beforeartdirectzero1 = beforeartdirectzero1 - productpricdirectxero1
   }
+if (beforeartdirectzero1 <= 0) {
+  document.getElementById("yourcartandemptyimg-child").style.display = "inline";
+  document.getElementById("Total-price-fulldiv").style.display = "none";
+
+}
+ let theitemselect= document.querySelector(".countdownid6")
+ let theitemselect1=parseFloat(theitemselect.innerText)
+ let totalitemselectinsecondpart=document.getElementById("countthe-theproductprice6")
+ let totalitemselectinsecondpart1=parseFloat(totalitemselectinsecondpart.innerText)
+ theitemselect1=theitemselect1-totalitemselectinsecondpart1
+ theitemselect.innerText=theitemselect1
 
   beforeartdirectzero.innerText = beforeartdirectzero1
+  aftercrossfunction6()
 }
 //For Card 7
 function crossbtn7() {
   document.getElementById("card7-fullitemadded").style.display = "none"
-  let afterthecartifzero = document.getElementById("yourcartandemptyimg-child")
-     afterthecartifzero.style.display = "inline"
+
  
   let beforeartdirectzero = document.getElementById("before-cart")
   let beforeartdirectzero1 = parseInt(beforeartdirectzero.innerText)
@@ -947,14 +1017,25 @@ function crossbtn7() {
   if (beforeartdirectzero1 > 0) {
     beforeartdirectzero1 = beforeartdirectzero1 - productpricdirectxero1
   }
+if (beforeartdirectzero1 <= 0) {
+  document.getElementById("yourcartandemptyimg-child").style.display = "inline";
+  document.getElementById("Total-price-fulldiv").style.display = "none";
+
+}
+ let theitemselect= document.querySelector(".countdownid7")
+ let theitemselect1=parseFloat(theitemselect.innerText)
+ let totalitemselectinsecondpart=document.getElementById("countthe-theproductprice7")
+ let totalitemselectinsecondpart1=parseFloat(totalitemselectinsecondpart.innerText)
+ theitemselect1=theitemselect1-totalitemselectinsecondpart1
+ theitemselect.innerText=theitemselect1
 
   beforeartdirectzero.innerText = beforeartdirectzero1
+  aftercrossfunction7()
 }
 //For Card 8
 function crossbtn8() {
   document.getElementById("card8-fullitemadded").style.display = "none"
-  let afterthecartifzero = document.getElementById("yourcartandemptyimg-child")
-     afterthecartifzero.style.display = "inline"
+
  
   let beforeartdirectzero = document.getElementById("before-cart")
   let beforeartdirectzero1 = parseInt(beforeartdirectzero.innerText)
@@ -963,14 +1044,25 @@ function crossbtn8() {
   if (beforeartdirectzero1 > 0) {
     beforeartdirectzero1 = beforeartdirectzero1 - productpricdirectxero1
   }
+if (beforeartdirectzero1 <= 0) {
+  document.getElementById("yourcartandemptyimg-child").style.display = "inline";
+  document.getElementById("Total-price-fulldiv").style.display = "none";
+
+}
+ let theitemselect= document.querySelector(".countdownid8")
+ let theitemselect1=parseFloat(theitemselect.innerText)
+ let totalitemselectinsecondpart=document.getElementById("countthe-theproductprice8")
+ let totalitemselectinsecondpart1=parseFloat(totalitemselectinsecondpart.innerText)
+ theitemselect1=theitemselect1-totalitemselectinsecondpart1
+ theitemselect.innerText=theitemselect1
 
   beforeartdirectzero.innerText = beforeartdirectzero1
+  aftercrossfunction8()
 }
 //For Card9
 function crossbtn9() {
   document.getElementById("card9-fullitemadded").style.display = "none"
-  let afterthecartifzero = document.getElementById("yourcartandemptyimg-child")
-     afterthecartifzero.style.display = "inline"
+   
  
   let beforeartdirectzero = document.getElementById("before-cart")
   let beforeartdirectzero1 = parseInt(beforeartdirectzero.innerText)
@@ -979,8 +1071,21 @@ function crossbtn9() {
   if (beforeartdirectzero1 > 0) {
     beforeartdirectzero1 = beforeartdirectzero1 - productpricdirectxero1
   }
+if (beforeartdirectzero1 <= 0) {
+  document.getElementById("yourcartandemptyimg-child").style.display = "inline";
+  document.getElementById("Total-price-fulldiv").style.display = "none";
+
+
+}
+ let theitemselect= document.querySelector(".countdownid9")
+ let theitemselect1=parseFloat(theitemselect.innerText)
+ let totalitemselectinsecondpart=document.getElementById("countthe-theproductprice9")
+ let totalitemselectinsecondpart1=parseFloat(totalitemselectinsecondpart.innerText)
+ theitemselect1=theitemselect1-totalitemselectinsecondpart1
+ theitemselect.innerText=theitemselect1
 
   beforeartdirectzero.innerText = beforeartdirectzero1
+  aftercrossfunction9()
 }
 // Cross The Selected item and also minus The Whole Selected For Card 1 End
 
@@ -1113,6 +1218,8 @@ function totalprice1(){
     let afteritemprice=parseFloat(beforeitemprice.innerText)
     aftertotalprice=aftertotalprice+afteritemprice
     beforetotalprice.innerText=aftertotalprice
+
+    
 }
 function totalprice2(){
     let beforetotalprice=document.getElementById("Total-price-fulldiv-child2")
@@ -1268,4 +1375,87 @@ function aftercrossfunction(){
     let afteritemprice=parseFloat(beforeitemprice.innerText)
     aftertotalprice=aftertotalprice-afteritemprice
     beforetotalprice.innerText=aftertotalprice
+
+}
+//cart 2
+function aftercrossfunction2(){
+    let beforetotalprice=document.getElementById("Total-price-fulldiv-child2")
+    let aftertotalprice=parseFloat(beforetotalprice.innerText)
+        let beforeitemprice=document.getElementById("cart-price2")
+    let afteritemprice=parseFloat(beforeitemprice.innerText)
+    aftertotalprice=aftertotalprice-afteritemprice
+    beforetotalprice.innerText=aftertotalprice
+}
+//cart 3
+function aftercrossfunction3(){
+    let beforetotalprice=document.getElementById("Total-price-fulldiv-child2")
+    let aftertotalprice=parseFloat(beforetotalprice.innerText)
+        let beforeitemprice=document.getElementById("cart-price3")
+    let afteritemprice=parseFloat(beforeitemprice.innerText)
+    aftertotalprice=aftertotalprice-afteritemprice
+    beforetotalprice.innerText=aftertotalprice
+}
+//cart 4
+function aftercrossfunction4(){
+    let beforetotalprice=document.getElementById("Total-price-fulldiv-child2")
+    let aftertotalprice=parseFloat(beforetotalprice.innerText)
+        let beforeitemprice=document.getElementById("cart-price4")
+    let afteritemprice=parseFloat(beforeitemprice.innerText)
+    aftertotalprice=aftertotalprice-afteritemprice
+    beforetotalprice.innerText=aftertotalprice
+}
+//cart 5
+function aftercrossfunction5(){
+    let beforetotalprice=document.getElementById("Total-price-fulldiv-child2")
+    let aftertotalprice=parseFloat(beforetotalprice.innerText)
+        let beforeitemprice=document.getElementById("cart-price5")
+    let afteritemprice=parseFloat(beforeitemprice.innerText)
+    aftertotalprice=aftertotalprice-afteritemprice
+    beforetotalprice.innerText=aftertotalprice
+}
+//cart 6
+function aftercrossfunction6(){
+    let beforetotalprice=document.getElementById("Total-price-fulldiv-child2")
+    let aftertotalprice=parseFloat(beforetotalprice.innerText)
+        let beforeitemprice=document.getElementById("cart-price6")
+    let afteritemprice=parseFloat(beforeitemprice.innerText)
+    aftertotalprice=aftertotalprice-afteritemprice
+    beforetotalprice.innerText=aftertotalprice
+}
+//cart 7
+function aftercrossfunction7(){
+    let beforetotalprice=document.getElementById("Total-price-fulldiv-child2")
+    let aftertotalprice=parseFloat(beforetotalprice.innerText)
+        let beforeitemprice=document.getElementById("cart-price7")
+    let afteritemprice=parseFloat(beforeitemprice.innerText)
+    aftertotalprice=aftertotalprice-afteritemprice
+    beforetotalprice.innerText=aftertotalprice
+}
+//cart 8
+function aftercrossfunction8(){
+    let beforetotalprice=document.getElementById("Total-price-fulldiv-child2")
+    let aftertotalprice=parseFloat(beforetotalprice.innerText)
+        let beforeitemprice=document.getElementById("cart-price8")
+    let afteritemprice=parseFloat(beforeitemprice.innerText)
+    aftertotalprice=aftertotalprice-afteritemprice
+    beforetotalprice.innerText=aftertotalprice
+}
+//cart 9
+function aftercrossfunction9(){
+    let beforetotalprice=document.getElementById("Total-price-fulldiv-child2")
+    let aftertotalprice=parseFloat(beforetotalprice.innerText)
+        let beforeitemprice=document.getElementById("cart-price9")
+    let afteritemprice=parseFloat(beforeitemprice.innerText)
+    aftertotalprice=aftertotalprice-afteritemprice
+    beforetotalprice.innerText=aftertotalprice
+}
+
+function confirmtheorder(){
+  document.getElementById("order-popup-fulldiv").style.display="flex"
+document.getElementById("order-popup-fulldiv").style.transition = "opacity 1s ease";
+}
+
+
+function startaneworder(){
+  location.reload();
 }

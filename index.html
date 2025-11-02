@@ -198,8 +198,11 @@
             <div id="yourcartandemptyimg">
                 <h3 class="change-color-yourcart">Your Cart <span id="before-cart">0</span></h3>
                 <div id="yourcartandemptyimg-child">
-                    <img src="illustration-empty-cart.svg" id="empty-cart" alt="">
+                    <div>
+                                            <img src="illustration-empty-cart.svg" id="empty-cart" alt="">
                     <p>Your Added item will appear here</p>
+                    </div>
+
                 </div>
 
                 <div id="afterthecartadd">
@@ -309,7 +312,19 @@
        <div id="Total-price-fulldiv">
         <div class="Total-price-fulldiv-child1">Total Price</div>
         <div><span id="Total-price-fulldiv-child2">0</span></div>
+               <div id="carbondelevery-confirmbutton">
+               <div id="carbon-delevery">
+        <img src="icon-carbon-neutral.svg" alt="">
+        <p>This is a carbon-neutral delivery</p>
+       </div>        
+      <!--Confirm Button-->
+      <div id="confirm-button-div">
+        <button id="confirm-button" onclick="confirmtheorder()">Confirm Order</button>
+      </div>
+
        </div>
+       </div>
+
 </div>
 </div>
 </div>
@@ -322,8 +337,16 @@
 
         </div>
      
-
-
+<!---order confirm pop up-->
+   <div id="order-popup-fulldiv"> 
+    <div id="order-popup-fulldiv-child">
+        <img src="icon-order-confirmed.svg" alt="">
+        <h2>Order Confirm</h2>
+        <p>We hope you enjoy The food</p>
+       
+        <button id="start-neworder" onclick="startaneworder()">Start New Order</button>
+    </div>
+   </div>
 
 
 
